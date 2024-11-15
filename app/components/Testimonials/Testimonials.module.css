@@ -1,0 +1,134 @@
+.mainWrapper {
+    max-width: 1340px;
+    margin: 50px auto;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 63px;
+    color: #003366;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .slider {
+    position: relative;
+  }
+  
+  .slideWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  
+  .slide {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #003366;
+    border-radius: 12px;
+  }
+
+  .name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #343434;
+    margin-bottom: 2px;
+  }
+
+  .role {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B6B6B;
+    margin-bottom: 2px;
+  }
+
+  .text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #343434;
+  }
+  
+  .rating {
+    position: relative;
+    top: -10px;
+  }
+  
+  .star {
+    color: #ccc;
+    font-size: 30px;
+  }
+  
+  .filled {
+    color: #F4DC00;
+  }
+  
+  .controls {
+    display: flex;
+    padding: 12px 14px;
+    border: 1px solid #C2D1E0;
+    border-radius: 46px;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .prev {
+    background-color: #1d3557;
+  }
+  
+  .next {
+    background-color: #1d3557;
+  }
+  
+  .dots {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: 0 32px;
+  }
+  
+  .dot {
+    width: 13px;
+    height: 4px;
+    background-color: #C2D1E0;
+    border-radius: 20%;
+    margin: 0;
+  }
+
+  .dot.active {
+    width: 24px;
+    height: 4px;
+    background-color: #1d3557;
+    border-radius: 20%;
+    margin: 0;
+  }
+  
+  .inactive {
+    background-color: #d3dae3; /* Light color for inactive dots */
+  }
+  
+  .active {
+    background-color: #1d3557; /* Dark color for active dot */
+  }
+  

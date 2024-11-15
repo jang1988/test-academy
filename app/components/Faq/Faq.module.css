@@ -1,0 +1,143 @@
+.title {
+    max-width: 1340px;
+    margin: 50px auto 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 63px;
+    color: #003366;
+}
+
+.mainWrapper {
+    max-width: 1340px;
+    margin: 20px auto 40px auto;
+    display: flex;
+    gap: 24px;
+}
+
+.contentWrapper {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contentItem {
+    padding: 40px;
+    border: 1px solid #003366;
+    border-radius: 16px;
+}
+
+.contentTitleWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #343434;
+}
+
+.contentDesc {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #343434;
+    width: 580px;
+    display: block;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #003366;
+}
+
+.formWrapper {
+    width: 35%;
+    padding: 57px 60px;
+    background-color: #003366;
+    border-radius: 14px;
+}
+
+.formTitile {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #fbfbfb;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #fbfbfb;
+}
+
+.form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    border-radius: 4px;
+    background-color: #fbfbfb;
+    border: 1px solid #ececec;
+    margin-bottom: 24px;
+    padding: 18px 14px;
+    color: #343434;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+
+.input::placeholder {
+    color: #343434;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.inputAria {
+    border-radius: 4px;
+    background-color: #fbfbfb;
+    border: 1px solid #ececec;
+    margin-bottom: 24px;
+    padding: 18px 14px;
+    color: #343434;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    
+    resize: none;
+    max-height: 114px;
+}
+
+.inputAria::placeholder {
+    color: #343434;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.button {
+    padding: 14px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #003366;
+    background-color: #fbfbfb;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    max-width: max-content;
+    margin: 16px auto 0 auto;
+}
+
+.button:hover {
+    background-color: #003399;
+    color: #fbfbfb;
+}

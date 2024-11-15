@@ -1,0 +1,76 @@
+.mainWrapper {
+    max-width: 1340px;
+    margin: 11px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menuWrapper {
+    display: flex;
+}
+
+.menu {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #343434;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.menuItem {
+    position: relative;
+    padding: 12px 8px;
+    cursor: pointer;
+}
+
+.menuItem:hover {
+    color: #003366;
+    border-bottom: 1px solid #003366;
+}
+
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: -5%;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 8px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    z-index: 1;
+}
+
+.dropdownMenu a {
+    display: block;
+    padding: 8px 16px;
+    color: #003366;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+.dropdownMenu a:hover {
+    background-color: #f0f0f0;
+}
+
+.menuItem:hover .dropdownMenu {
+    display: block;
+}
+
+.loginBtn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 14px 30px;
+    background-color: #003366;
+    border-radius: 14px;
+    margin-left: 22px;
+    cursor: pointer;
+}
